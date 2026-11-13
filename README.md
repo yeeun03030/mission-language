@@ -35,9 +35,18 @@ python3 -m http.server 8000
 # 브라우저에서 http://localhost:8000
 ```
 
-## 무료로 배포하기 (팀원과 링크 공유)
-- **Netlify Drop**: https://app.netlify.com/drop 에 `studyWeb` 폴더를 끌어다 놓으면 바로 주소가 생깁니다.
-- **GitHub Pages**: 저장소에 올린 뒤 Settings → Pages에서 배포합니다.
+## 배포된 주소 (팀원과 공유)
+**https://yeeun03030.github.io/mission-language/**
+GitHub Pages(무료)로 올라가 있어요. 휴대폰에서 열고 "홈 화면에 추가"를 누르면 앱처럼 설치되고, 인터넷 없이도 쓸 수 있어요.
+
+### 고친 내용 다시 올리기
+```bash
+cd ~/Documents/studyWeb
+git add -A
+git commit -m "수정 내용 한 줄 설명"
+git push
+```
+1~2분 뒤 주소에 반영돼요. 문장·음성·소식을 바꿨다면 먼저 `sw.js`의 `VERSION`을 하나 올려야 이미 설치한 사람들도 새 내용을 받아요.
 
 ## 파일 구성
 | 파일 | 내용 |
