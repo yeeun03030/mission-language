@@ -1,0 +1,16 @@
+{
+  "name": "단기선교 언어학습 - 네팔어·캄보디아어·태국어",
+  "short_name": "선교 언어",
+  "description": "단기선교를 위한 네팔어·캄보디아어·태국어 12주 반복학습과 현지 소식",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF7F2",
+  "theme_color": "#B3123A",
+  "lang": "ko",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
